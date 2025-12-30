@@ -1,0 +1,147 @@
+[gd_scene load_steps=6 format=3 uid="uid://cntbaoeh55dp3"]
+
+[ext_resource type="Script" uid="uid://dkhg0wm0iayf5" path="res://scripts/menu_principal.gd" id="1_qf3d8"]
+[ext_resource type="Texture2D" uid="uid://bd165a3vfad4w" path="res://assets/Fundos/noite no rio pixel art + elemento.png" id="2_cuo4m"]
+[ext_resource type="FontFile" uid="uid://di81ovishml7p" path="res://assets/fonts/PixelifySans-VariableFont_wght.ttf" id="3_o0mex"]
+[ext_resource type="Texture2D" uid="uid://uc03fpbi1shp" path="res://assets/sprites/Logo-A_Caçada_pela_Verdade.png" id="4_1p3qb"]
+[ext_resource type="Texture2D" uid="uid://cdg22fvbco7n5" path="res://assets/fonts/github.png" id="4_03q1i"]
+
+[node name="Menu_Principal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.52588e-05
+offset_right = 696.0
+offset_bottom = 528.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.355507, 0.266463)
+size_flags_horizontal = 4
+script = ExtResource("1_qf3d8")
+
+[node name="bg_imagem" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -5.6257687
+offset_top = -7.5057907
+offset_right = 2.9604492
+offset_bottom = 4.3032227
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_cuo4m")
+expand_mode = 1
+
+[node name="MadeBy" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -208.0
+offset_top = -56.0
+offset_right = 208.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Subtitulo" type="Label" parent="MadeBy"]
+layout_mode = 2
+theme_override_constants/outline_size = 15
+theme_override_constants/shadow_outline_size = 10
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 38
+text = "Disponível no"
+
+[node name="Github" type="Button" parent="MadeBy"]
+modulate = Color(0.963514, 0.795147, 0, 1)
+layout_mode = 2
+focus_mode = 0
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 38
+theme_override_icons/icon = ExtResource("4_03q1i")
+text = "GitHub"
+flat = true
+
+[node name="MainContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -123.693
+offset_top = -360.0
+offset_right = 837.307
+offset_bottom = 446.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="Titulo_logo" type="Sprite2D" parent="MainContainer"]
+position = Vector2(123.767, 138.856)
+scale = Vector2(0.29622, 0.376308)
+texture = ExtResource("4_1p3qb")
+
+[node name="HContainer" type="HBoxContainer" parent="MainContainer"]
+clip_contents = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="VContainer" type="VBoxContainer" parent="MainContainer/HContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 50
+alignment = 1
+
+[node name="Play" type="Button" parent="MainContainer/HContainer/VContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 43
+text = "Jogar"
+
+[node name="Controles" type="Button" parent="MainContainer/HContainer/VContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 43
+text = "Controles
+"
+
+[node name="Créditos" type="Button" parent="MainContainer/HContainer/VContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 43
+text = "Créditos
+"
+
+[node name="Exit" type="Button" parent="MainContainer/HContainer/VContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 43
+text = "Sair"
+
+[node name="Nota_Versão" type="Label" parent="."]
+layout_mode = 0
+offset_left = 11.2515
+offset_top = 15.0114
+offset_right = 210.96632
+offset_bottom = 41.28147
+theme_override_constants/outline_size = 10
+theme_override_constants/shadow_outline_size = 10
+theme_override_fonts/font = ExtResource("3_o0mex")
+theme_override_font_sizes/font_size = 17
+text = "version alpha_build 1.2.1"
+
+[connection signal="pressed" from="MadeBy/Github" to="." method="_on_techno_darkti_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Controles" to="." method="_on_controles_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Créditos" to="." method="_on_créditos_pressed"]
+[connection signal="pressed" from="MainContainer/HContainer/VContainer/Exit" to="." method="_on_exit_pressed"]

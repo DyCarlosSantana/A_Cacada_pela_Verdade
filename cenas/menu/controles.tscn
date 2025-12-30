@@ -1,0 +1,95 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxsim715l6ag2"]
+
+[ext_resource type="Script" uid="uid://dkhg0wm0iayf5" path="res://scripts/menu_principal.gd" id="1_7a6qd"]
+[ext_resource type="Texture2D" uid="uid://bd165a3vfad4w" path="res://assets/Fundos/noite no rio pixel art + elemento.png" id="2_x6hgw"]
+[ext_resource type="Texture2D" uid="uid://dxyje8ea4bp3k" path="res://assets/fonts/wasd.png" id="3_8u5dd"]
+[ext_resource type="FontFile" uid="uid://di81ovishml7p" path="res://assets/fonts/PixelifySans-VariableFont_wght.ttf" id="3_13mv7"]
+
+[node name="Controle" type="Control"]
+custom_minimum_size = Vector2(1080, 720)
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.52588e-05
+offset_right = 696.0
+offset_bottom = 528.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.355507, 0.266463)
+script = ExtResource("1_7a6qd")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.81288
+offset_top = -15.0115
+offset_right = 0.187134
+offset_bottom = 11.9885
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_x6hgw")
+expand_mode = 5
+
+[node name="Background2" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -2.81288
+offset_top = -15.0115
+offset_right = 0.187134
+offset_bottom = 11.9885
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.729412)
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 270.037
+offset_top = 90.0687
+offset_right = 808.037
+offset_bottom = 162.069
+theme_override_fonts/font = ExtResource("3_13mv7")
+theme_override_font_sizes/font_size = 59
+text = "CONTROLES DO JOGO"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="WASD" type="Label" parent="."]
+layout_mode = 0
+offset_left = 562.577
+offset_top = 232.678
+offset_right = 843.577
+offset_bottom = 461.678
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+theme_override_constants/shadow_offset_x = 0
+theme_override_fonts/font = ExtResource("3_13mv7")
+theme_override_font_sizes/font_size = 45
+text = "W = cima
+A = esquerda
+S = baixo
+D = direita"
+
+[node name="Voltar" type="Button" parent="."]
+layout_mode = 0
+offset_left = 466.939
+offset_top = 592.953
+offset_right = 547.939
+offset_bottom = 635.953
+scale = Vector2(2, 2)
+theme_override_fonts/font = ExtResource("3_13mv7")
+theme_override_font_sizes/font_size = 18
+text = "Voltar"
+
+[node name="Wasd" type="Sprite2D" parent="."]
+position = Vector2(390.991, 360.275)
+scale = Vector2(0.48124, 0.570236)
+texture = ExtResource("3_8u5dd")
+
+[connection signal="pressed" from="Voltar" to="." method="_on_voltar_pressed"]
