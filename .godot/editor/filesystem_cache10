@@ -1,0 +1,65 @@
+e910c82af1378a97450e26817c58487e
+::res://::1767714513
+README.md::TextFile::-1::1767063310::0::1::::<><><>0<>0<><>::
+::res://assets/::1767063108
+::res://assets/cenário/::1767059822
+::res://assets/cenário/maps/::1767400800
+chao_cimento.png::CompressedTexture2D::6089034485185190939::1764428276::1767400800::1::::<><><>0<>0<>1d6d72904d416df667c62c5622ba25f1<>res://.godot/imported/chao_cimento.png-dd731ee7848ae4b656e94f65abe45b56.ctex::
+Muro.png::CompressedTexture2D::6295880074935897612::1764428276::1767400800::1::::<><><>0<>0<>b81a99261e88a5a566060b6977d59f9b<>res://.godot/imported/Muro.png-41b3d35e7efc79009a2f884a69f5e3e6.ctex::
+museu.png::CompressedTexture2D::2423312563531499812::1764428276::1767400800::1::::<><><>0<>0<>1c2df3043d9afe3414dc6cab4c7edef3<>res://.godot/imported/museu.png-bccd474499e2d3ed1b258c09b8901a69.ctex::
+quartel (com chão).png::CompressedTexture2D::8732991224808159359::1764428276::1767400800::1::::<><><>0<>0<>20f0e692c6c5a18e635459a0a13b7529<>res://.godot/imported/quartel (com chão).png-ce5f0c1fc2278635b709c55e252a6e33.ctex::
+quartel (sem chão).png::CompressedTexture2D::9026562354853015995::1764428276::1767400800::1::::<><><>0<>0<>4c0a9ded1690cb1b3d5701c732b0e5c2<>res://.godot/imported/quartel (sem chão).png-c1778b7e7e05c1013184f4d5738da60d.ctex::
+QUARTEL.png::CompressedTexture2D::1961374621284332595::1764428276::1767400800::1::::<><><>0<>0<>fa7f709f43a3ad75d16cbe24eb740f97<>res://.godot/imported/QUARTEL.png-8477933a1894e2ed6f3b904c8497aeb5.ctex::
+tijolos_cinza.png::CompressedTexture2D::1529930594551238431::1764428276::1767400800::1::::<><><>0<>0<>256e3d91e8b68af65945185c12338a20<>res://.godot/imported/tijolos_cinza.png-eaa3dd3547cfb26d37b58a76b9a569e4.ctex::
+::res://assets/cenário/models/::1767400800
+materiais chao.png::CompressedTexture2D::8778010038448699118::1764428276::1767400800::1::::<><><>0<>0<>f57f86339d4caa0d0cf8bc56260acacf<>res://.godot/imported/materiais chao.png-c62504055fdcaa252f2fb391e321dfa7.ctex::
+::res://assets/fonts/::1767400799
+PixelifySans-Bold.ttf::FontFile::7529760577081034002::1767063108::1767400799::1::::<><><>0<>0<>d738ad67c81adaccba0efaa6abd4a794<>res://.godot/imported/PixelifySans-Bold.ttf-53641a8df1c059003acbc39a08fbca33.fontdata::
+PixelifySans-VariableFont_wght.ttf::FontFile::1014453605996426716::1767063108::1767400799::1::::<><><>0<>0<>58c713f61a8d6e0b6e7d73f8aadf5cfa<>res://.godot/imported/PixelifySans-VariableFont_wght.ttf-e5e1ab46c22d34095a3cee415ea8e3ad.fontdata::
+::res://assets/Fundos/::1767400801
+Animation-Tela-Inicial.ogv::VideoStreamTheora::4175665552043588323::1767063108::0::1::::<><><>0<>0<><>::
+elemento canoa.png::CompressedTexture2D::16594611224348654::1767063108::1767400801::1::::<><><>0<>0<>a239c5013f76a9125281a22ad2f9d5b5<>res://.godot/imported/elemento canoa.png-05add8dd99c7072cb9ce181919b2eddc.ctex::
+noite no rio pixel art + elemento.png::CompressedTexture2D::2652596881021013356::1767063108::1767400801::1::::<><><>0<>0<>67ddaf657291cfd7d151c74590a4f67f<>res://.godot/imported/noite no rio pixel art + elemento.png-f6c8d2ea74c24ec128e0fba2cd195e57.ctex::
+noite no rio pixel art.png::CompressedTexture2D::2584380673481665256::1767063108::1767400801::1::::<><><>0<>0<>4bfb90ff745b177fa51df1f26ab661ea<>res://.godot/imported/noite no rio pixel art.png-8d0bb67866d22bcd29c243b2b9903bdd.ctex::
+RioAmazonas_PixelArt.png::CompressedTexture2D::8675561312749790512::1767063108::1767400801::1::::<><><>0<>0<>547ce4dc5694cbae3ebab10e799f2bfd<>res://.godot/imported/RioAmazonas_PixelArt.png-1efe472a7918a76d6f0571418e06d198.ctex::
+Serra da Escama - Por do sol.jpg::CompressedTexture2D::1697158263054369614::1767063108::1767400800::1::::<><><>0<>0<>4abfc52f82434e2214db5b28fe28e5bd<>res://.godot/imported/Serra da Escama - Por do sol.jpg-b4ab8408e29edd6189c993e129dccea1.ctex::
+serra da escama.png::CompressedTexture2D::4511033024618591897::1767063108::1767400799::1::::<><><>0<>0<>17bc5c8674e0002417f9b07230066488<>res://.godot/imported/serra da escama.png-26e793a8f9002937eb3db87726cd9fb3.ctex::
+::res://assets/sprites/::1767400800
+controle.png::CompressedTexture2D::5958933722483588539::1767063108::1767400800::1::::<><><>0<>0<>1a46d6a0d2d80631122c8643767ab778<>res://.godot/imported/controle.png-020dda0ac70b3933fff3c6cd11ffaf34.ctex::
+creditos.png::CompressedTexture2D::8266417012308918652::1767063108::1767400800::1::::<><><>0<>0<>64645a16c03cff515a4bb6f24129cacb<>res://.godot/imported/creditos.png-8c201eb10c7cf85e0a6ec32fa6540572.ctex::
+icon_github_pixelart.png::CompressedTexture2D::250089458435645682::1767063108::1767400799::1::::<><><>0<>0<>d1ca5737a9e25219a38db52d43f0c429<>res://.godot/imported/icon_github_pixelart.png-849189a6f7984a010223198eb01ce7f3.ctex::
+jogar.png::CompressedTexture2D::1802651730692205206::1767063108::1767400800::1::::<><><>0<>0<>6bd8dcd0990fc2e354a45b6382f0dd55<>res://.godot/imported/jogar.png-88871b85031028ce758ccee184641346.ctex::
+Logo-A_Caçada_pela_Verdade.png::CompressedTexture2D::4948426280748459380::1767063108::1767400799::1::::<><><>0<>0<>1458351fe2ecb12d49b11a09245060e2<>res://.godot/imported/Logo-A_Caçada_pela_Verdade.png-a3895cabfb3d3f0012488cbd3f31b2b5.ctex::
+noiva do museu.png::CompressedTexture2D::3569809619547524901::1764428276::1767400799::1::::<><><>0<>0<>df6a4b3fb4ce654c7d8d31b5bef78614<>res://.godot/imported/noiva do museu.png-7c4041e4b564388559833bc1e08a65b2.ctex::
+Personagem Feminina.png::CompressedTexture2D::9180954269950349963::1764428276::1767400799::1::::<><><>0<>0<>37daad08b755b98f23b5a42eafcaa36c<>res://.godot/imported/Personagem Feminina.png-c6afdc5492db206d50403514135ec23e.ctex::
+personagem masculino.png::CompressedTexture2D::1989422141520016613::1764428276::1767400799::1::::<><><>0<>0<>2cf3376570279d24750bd6aea02a6327<>res://.godot/imported/personagem masculino.png-4ccab821bb0fd1fd810eb82e52f67387.ctex::
+player_annimation.png::CompressedTexture2D::2061416011370172717::1764428276::1767400799::1::::<><><>0<>0<>bc1036d929c74dcc4c92fc0ad1381655<>res://.godot/imported/player_annimation.png-9050eb32445fd883ddad765839fb3b95.ctex::
+wasd.png::CompressedTexture2D::6452905308837349238::1767063108::1767400799::1::::<><><>0<>0<>aec47825df5b3d1e68a8ce6e24f9376e<>res://.godot/imported/wasd.png-a62e3451db5d72668835248e353fc064.ctex::
+::res://assets/sprites/Models/::1764428532
+::res://cenas/::1763953316
+::res://cenas/act01/::1764428532
+act01_01.tscn::PackedScene::8542276916579814090::1764428276::0::1::::<><><>0<>0<><>::uid://bvuvbfonrrdkb::::res://cenas/sprites/npc_eduarda.tscn<>uid://cp8j681tea2ti::::res://assets/cenário/models/materiais chao.png<>uid://dsjchcuekm1uv::::res://assets/cenário/maps/museu.png<>uid://b7sjygimj717o::::res://cenas/sprites/player_sem_camera.tscn<>uid://bvdvajauigkt0::::res://cenas/sprites/boss_noiva_museu.tscn
+act01_02.tscn::PackedScene::4051160755685308256::1764428276::0::1::::<><><>0<>0<><>::uid://dytc81mbt1gok::::res://cenas/tiles/tileset.tscn<>uid://1lg7yd8xh3ct::::res://assets/cenário/maps/chao_cimento.png<>uid://cp8j681tea2ti::::res://assets/cenário/models/materiais chao.png<>uid://cvyoslsrv0uof::::res://cenas/sprites/player.tscn
+act01_03.tscn::PackedScene::5969097481079546603::1764428276::0::1::::<><><>0<>0<><>::
+::res://cenas/menu/::1767401366
+controles.tscn::PackedScene::4038431774701012815::1767063108::0::1::::<><><>0<>0<><>::uid://dkhg0wm0iayf5::::res://scripts/menu_principal.gd<>uid://bd165a3vfad4w::::res://assets/Fundos/noite no rio pixel art + elemento.png<>uid://dxyje8ea4bp3k::::res://assets/fonts/wasd.png<>uid://di81ovishml7p::::res://assets/fonts/PixelifySans-VariableFont_wght.ttf
+menu_main.tscn::PackedScene::5724580970865966166::1767401366::0::1::::<><><>0<>0<><>::uid://dkhg0wm0iayf5::::res://scripts/menu_principal.gd<>uid://bd165a3vfad4w::::res://assets/Fundos/noite no rio pixel art + elemento.png<>uid://opn5xq3c47n1::::res://assets/fonts/PixelifySans-VariableFont_wght.ttf<>uid://ccrb4fxykcujc::::res://assets/sprites/Logo-A_Caçada_pela_Verdade.png
+sprash_screen.tscn::PackedScene::2054287659863192218::1764428276::0::1::::<><><>0<>0<><>::res://scripts/sprash_screen.gd<>uid://disec57lrm3wf::::res://resources/splatter.png
+tela_carregamento.tscn::PackedScene::3852520759683219217::1764428276::0::1::::<><><>0<>0<><>::res://scripts/tela_carregamento.gd
+tela_creditos.tscn::PackedScene::4668454409881444341::1767063108::0::1::::<><><>0<>0<><>::uid://dkhg0wm0iayf5::::res://scripts/menu_principal.gd<>uid://di81ovishml7p::::res://assets/fonts/PixelifySans-VariableFont_wght.ttf
+::res://cenas/sprites/::1767059554
+boss_noiva_museu.tscn::PackedScene::3867855063831854711::1764428276::0::1::::<><><>0<>0<><>::uid://ck4213nycq6yf::::res://assets/sprites/noiva do museu.png
+npc_eduarda.tscn::PackedScene::3902951082673040025::1764428276::0::1::::<><><>0<>0<><>::uid://dxpv3fa7ybvrh::::res://assets/sprites/Personagem Feminina.png
+player.tscn::PackedScene::6297234938436137961::1764428276::0::1::::<><><>0<>0<><>::res://scripts/player.gd<>uid://bx2cs8h4c3xpg::::res://assets/sprites/personagem masculino.png
+player_sem_camera.tscn::PackedScene::4670212119728906182::1764428276::0::1::::<><><>0<>0<><>::uid://bdxavis6mhl5a::::res://assets/sprites/personagem masculino.png
+::res://cenas/tiles/::1764428532
+tilemap.tscn::PackedScene::7184941654657370931::1764428276::0::1::::<><><>0<>0<><>::uid://1lg7yd8xh3ct::::res://assets/cenário/maps/chao_cimento.png<>uid://dp7380c0biqo5::::res://assets/cenário/maps/tijolos_cinza.png<>uid://cp8j681tea2ti::::res://assets/cenário/models/materiais chao.png
+tileset.tscn::PackedScene::8883199225120222494::1764428276::0::1::::<><><>0<>0<><>::uid://dquit3uqvdm8f::::res://assets/cenário/maps/quartel (com chão).png<>uid://dymva1l52byti::::res://assets/cenário/maps/Muro.png
+::res://resources/::1767400800
+splatter.png::CompressedTexture2D::3963128423050290118::1764428276::1767400800::1::::<><><>0<>0<>08889db899df49f665a7eaf885430597<>res://.godot/imported/splatter.png-398cb4194e0adfe8e728547d02169b95.ctex::
+::res://scripts/::1767480847
+menu_principal.gd::GDScript::7876011253740227016::1764428276::0::1::::<>Control<><>0<>0<><>::
+player.gd::GDScript::4348834723370208741::1764428276::0::1::::<>CharacterBody2D<><>0<>0<><>::
+sprash_screen.gd::GDScript::4780084727082270985::1764428276::0::1::::<>Control<><>0<>0<><>::
+tela_carregamento.gd::GDScript::289056098880401708::1764428276::0::1::::<>Node<><>0<>0<><>::
+turn.gd::GDScript::5347122765468195639::1764428276::0::1::::<>Node2D<><>0<>0<><>::
